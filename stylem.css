@@ -1,0 +1,102 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header1 img{
+    width: 8vw;
+    height: 6vh;
+    margin-left: 12vh;
+}
+
+.header2 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 32vh;
+    margin-top: -23px;
+}
+.header2 li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+    margin-left: 17px;
+}
+.header2 li a:hover{
+    text-decoration: underline;
+}
+.header3 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: -3vh;
+    margin-left: 167vh;
+}
+.header3 li a img{
+    width: 4vh;
+    height: 4vh;
+    margin-left: 4vh;
+}
+.drop-down{
+    border: none;
+    width: 16vh;
+    height: 3vh;
+    margin-left: -4vh;
+}
+.drop-down:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content1{
+    background-image: url('/websites/microsoft/06o1v4S7ck3pn89G2T81lX2-1..1632427637.jpg');
+    background-size: 175vh 81vh; 
+    width: 190vh;
+    margin-left: 20vh;
+    margin-top: 10px;
+    height: 121vh;
+    background-repeat: no-repeat;
+    font-family: 'PT Sans', sans-serif;
+}
+.content2 p{
+    padding-top: 31vh;
+    padding-left: 12vh;
+    font-size: 4vh;
+}
+
+.content3 p{
+  padding-top: 3vh;
+  padding-left: 11vh;
+}
+.content4{ 
+    background-color: black;
+    color: white;
+    width: 17vh;
+    height: 5vh;
+    padding-top: 13px;
+    padding-left: 30px;
+    margin-left: 78px;
+    margin-top: 20px;
+}
+.content4 a{
+    text-decoration: none;
+    color: white;
+}
+.content4 a:hover{
+    text-decoration: underline;
+}
+.new{
+    padding-top: 4vh;
+}
+.new p{
+     width: 9vh;
+     height: 4vh;
+     background-color: yellow;
+     margin-left: 11vh;
+     padding-top: 2vh;
+     padding-left: 2vh;
+}
